@@ -5,6 +5,8 @@ nexus:
   file-access-url: http://localhost:8380/
   aes-key: 1RR1JeyfUWvy1gmZFoO439Tk43dPdI92C1hZ6Tr2wFo=
 spring:
+  application:
+    name: nexus-admin
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
