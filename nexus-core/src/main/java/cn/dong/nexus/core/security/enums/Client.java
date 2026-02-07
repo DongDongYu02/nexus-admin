@@ -1,5 +1,8 @@
 package cn.dong.nexus.core.security.enums;
 
+import lombok.Getter;
+
+@Getter
 public enum Client {
 
     /**
@@ -12,10 +15,6 @@ public enum Client {
     APP("app");
 
     private final String code;
-
-    public String getCode() {
-        return code;
-    }
 
     Client(String code) {
         this.code = code;

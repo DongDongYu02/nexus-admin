@@ -1,7 +1,6 @@
 package cn.dong.nexus.modules.rbac.controller;
 
 import cn.dong.nexus.core.api.Result;
-import cn.dong.nexus.core.base.SelectionVO;
 import cn.dong.nexus.core.resmapping.annotation.ResultTranslate;
 import cn.dong.nexus.core.valid.ValidGroup;
 import cn.dong.nexus.modules.rbac.domain.dto.RolePermissionGrantDTO;
@@ -15,7 +14,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.apache.ibatis.annotations.Delete;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

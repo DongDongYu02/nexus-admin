@@ -1,6 +1,5 @@
 package cn.dong.nexus.modules.rbac.service.impl;
 
-import cn.dong.nexus.common.constants.GlobalConstants;
 import cn.dong.nexus.core.api.ApiMessage;
 import cn.dong.nexus.core.exception.BizException;
 import cn.dong.nexus.core.resmapping.ResMappingUtil;

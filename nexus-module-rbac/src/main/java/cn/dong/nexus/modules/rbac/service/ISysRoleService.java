@@ -1,6 +1,5 @@
 package cn.dong.nexus.modules.rbac.service;
 
-import cn.dong.nexus.core.base.SelectionVO;
 import cn.dong.nexus.modules.rbac.domain.dto.RolePermissionGrantDTO;
 import cn.dong.nexus.modules.rbac.domain.dto.SysRoleDTO;
 import cn.dong.nexus.modules.rbac.domain.entity.SysRole;

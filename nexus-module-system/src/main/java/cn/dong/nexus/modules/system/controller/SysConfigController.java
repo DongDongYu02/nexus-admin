@@ -1,7 +1,6 @@
 package cn.dong.nexus.modules.system.controller;
 
 import cn.dong.nexus.core.api.Result;
-import cn.dong.nexus.core.resmapping.annotation.ResultTranslate;
 import cn.dong.nexus.modules.system.domain.dto.SysConfigDTO;
 import cn.dong.nexus.modules.system.domain.vo.SysSettingVO;
 import cn.dong.nexus.modules.system.service.ISysConfigService;
